@@ -161,7 +161,14 @@ const Project = props => {
     react: 'fab fa-react',
     vue: 'fab fa-vuejs',
     d3: 'far fa-chart-bar',
-    node: 'fab fa-node'
+    node: 'fab fa-node',
+    web3: 'fas fa-coins',
+    blockchain: 'fas fa-link',
+    crypto: 'fab fa-bitcoin',
+    ai: 'fas fa-robot',
+    cloud: 'fas fa-cloud',
+    network: 'fas fa-network-wired',
+    defi: 'fas fa-chart-line'
   };
 
   const websiteLink = props.websiteLink || '#';
@@ -231,8 +238,8 @@ const Projects = props => {
         <div className="projects-wrapper">
           <Project
             title="Aethir"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572534105931776/OxI0Gu7.jpg?ex=681c5951&is=681b07d1&hm=409e9c20ef1b9b6a4e8f6414477cc037fe9f68ea1756054f52835daa1ef10ad7&=&width=445&height=445'}
-            tech="web3 blockchain"
+            img={'./images/aethir.png'}
+            tech="web3 cloud ai"
             twitterLink="https://x.com/AethirCloud"
             websiteLink="https://aethir.com/"
             detailedContent={
@@ -257,8 +264,8 @@ const Projects = props => {
           
           <Project
             title="Sahara AI"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369581789663727698/cifXkwd.jpg?ex=681c61f0&is=681b1070&hm=3f71e73ca146b1b4dc16a2f26fe91103bd7c29ff6797e8748b899def4ccb32d3&=&width=445&height=445'}
-            tech="web3 blockchain"
+            img={'./images/sahara.png'}
+            tech="ai blockchain web3"
             twitterLink="https://x.com/SaharaLabsAI"
             websiteLink="https://saharalabs.ai/"
             detailedContent={
@@ -283,8 +290,8 @@ const Projects = props => {
           
           <Project
             title="Pharos"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369581789886156841/wUQhFri.jpg?ex=681c61f0&is=681b1070&hm=611bb0b2a34a962131628087a170e03bd96e66ba89e8bf2666c1d26b85e9fe70&=&width=445&height=445'}
-            tech="web3 blockchain"
+            img={'./images/pharos.png'}
+            tech="blockchain network"
             twitterLink="https://x.com/pharos_network"
             websiteLink="https://pharosnetwork.xyz/"
           >
@@ -298,8 +305,8 @@ const Projects = props => {
           
           <Project
             title="ZkFair"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572533686370304/G4zWD4K.jpg?ex=681c5951&is=681b07d1&hm=ac40ef90a7bc68b62e5d45ca766d38b45d68fc2ca3395e64d3b6648c65b52b3f&=&width=445&height=445'}
-            tech="web3 blockchain"
+            img={'./images/zkfair.png'}
+            tech="blockchain defi crypto"
             twitterLink="https://x.com/ZKFCommunity"
             websiteLink="https://zkfair.io/"
           >
@@ -313,7 +320,7 @@ const Projects = props => {
           
           <Project
             title="Lumoz"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572532826669076/iTuTwvA.jpg?ex=681c5951&is=681b07d1&hm=d4b34abf47bfb3656eac3463d5835e05e89613edb58c94de89b510d865155320&=&width=445&height=445'}
+            img={'./images/lumoz.png'}
             tech="web3 blockchain"
             twitterLink="https://x.com/LumozOrg"
             websiteLink="https://lumoz.org/"
@@ -328,7 +335,7 @@ const Projects = props => {
           
           <Project
             title="Minima"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572533128531989/jooaGIG.png?ex=681c5951&is=681b07d1&hm=404b316a7ca0b0f113bf598dca030212cb836138ea2d820edff841b4cf4c87bd&=&width=445&height=445'}
+            img={'./images/minima.png'}
             tech="web3 blockchain"
             twitterLink="https://minima.global/"
             websiteLink="https://minima.global/"
@@ -343,8 +350,8 @@ const Projects = props => {
           
           <Project
             title="Wayru Network"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572533438779402/Hg1JgyZ.jpg?ex=681c5951&is=681b07d1&hm=8cdf12418ac68df484472b862f69bbea7b5e342efd0a8a53351df70d6769b58a&=&width=445&height=445'}
-            tech="web3 blockchain"
+            img={'./images/wayru.png'}
+            tech="network blockchain web3"
             twitterLink="https://x.com/WayruNetwork"
             websiteLink="https://www.wayru.io/"
           >
@@ -358,7 +365,7 @@ const Projects = props => {
           
           <Project
             title="TaskOn"
-            img={'https://media.discordapp.net/attachments/1282285166621884488/1369572532512100362/BDC8Fam.jpg?ex=681c5951&is=681b07d1&hm=5b076aac1ce1338ea0d1bb1112fb8800fa3c388a3dcfed677043e53533295474&=&width=445&height=445'}
+            img={'./images/taskon.png'}
             tech="web3 blockchain"
             twitterLink="https://x.com/taskonxyz"
             websiteLink="https://taskon.xyz/"
