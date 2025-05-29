@@ -162,12 +162,9 @@ const Project = props => {
     vue: 'fab fa-vuejs',
     d3: 'far fa-chart-bar',
     node: 'fab fa-node',
-    web3: 'fas fa-coins',
-    blockchain: 'fas fa-link',
     crypto: 'fab fa-bitcoin',
     ai: 'fas fa-robot',
     cloud: 'fas fa-cloud',
-    network: 'fas fa-network-wired',
     defi: 'fas fa-chart-line'
   };
 
@@ -239,7 +236,7 @@ const Projects = props => {
           <Project
             title="Aethir"
             img={'./images/aethir.png'}
-            tech="web3 cloud ai"
+            tech="cloud ai"
             twitterLink="https://x.com/AethirCloud"
             websiteLink="https://aethir.com/"
             detailedContent={
@@ -265,7 +262,7 @@ const Projects = props => {
           <Project
             title="Sahara AI"
             img={'./images/sahara.png'}
-            tech="ai blockchain web3"
+            tech="ai crypto"
             twitterLink="https://x.com/SaharaLabsAI"
             websiteLink="https://saharalabs.ai/"
             detailedContent={
@@ -291,7 +288,7 @@ const Projects = props => {
           <Project
             title="Pharos"
             img={'./images/pharos.png'}
-            tech="blockchain network"
+            tech="crypto"
             twitterLink="https://x.com/pharos_network"
             websiteLink="https://pharosnetwork.xyz/"
           >
@@ -306,7 +303,7 @@ const Projects = props => {
           <Project
             title="ZkFair"
             img={'./images/zkfair.png'}
-            tech="blockchain defi crypto"
+            tech="defi crypto"
             twitterLink="https://x.com/ZKFCommunity"
             websiteLink="https://zkfair.io/"
           >
@@ -321,7 +318,7 @@ const Projects = props => {
           <Project
             title="Lumoz"
             img={'./images/lumoz.png'}
-            tech="web3 blockchain"
+            tech="crypto"
             twitterLink="https://x.com/LumozOrg"
             websiteLink="https://lumoz.org/"
           >
@@ -336,7 +333,7 @@ const Projects = props => {
           <Project
             title="Minima"
             img={'./images/minima.png'}
-            tech="web3 blockchain"
+            tech="crypto"
             twitterLink="https://minima.global/"
             websiteLink="https://minima.global/"
           >
@@ -351,7 +348,7 @@ const Projects = props => {
           <Project
             title="Wayru Network"
             img={'./images/wayru.png'}
-            tech="network blockchain web3"
+            tech="crypto"
             twitterLink="https://x.com/WayruNetwork"
             websiteLink="https://www.wayru.io/"
           >
@@ -366,7 +363,7 @@ const Projects = props => {
           <Project
             title="TaskOn"
             img={'./images/taskon.png'}
-            tech="web3 blockchain"
+            tech="crypto"
             twitterLink="https://x.com/taskonxyz"
             websiteLink="https://taskon.xyz/"
           >
