@@ -290,7 +290,7 @@ const Projects = props => {
             websiteLink="https://pharosnetwork.xyz/"
           >
             <small>
-              <strong>Role:</strong> Contributor
+              <strong>Role:</strong> Moderator
             </small>
             <p>
             Fastest EVM-Compatible Layer-1
